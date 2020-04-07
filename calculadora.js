@@ -15,6 +15,7 @@ var botonm = document.getElementById('m');
 var botond = document.getElementById('d');
 var botoni = document.getElementById('i');
 var botonc = document.getElementById('c');
+var botonp = document.getElementById('punto');
 
 
 
@@ -107,6 +108,12 @@ function borrar() {
 }
 
 botonc.addEventListener("click", borrar);
+
+function punto() {
+  pantalla.innerHTML = pantalla.value + (botonp.value);
+}
+
+botonp.addEventListener("click", punto);
 
 function resultado() {
   function evaluaArimetica(fun) {
