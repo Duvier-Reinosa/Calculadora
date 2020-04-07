@@ -1,11 +1,9 @@
-var ingresadoSinProceso = document.getElementById("input")
+var ingresadoSinProceso = document.getElementById("input");
 var ingresado = parseInt(ingresadoSinProceso.value);
 var resultado = document.getElementById("resultado");
-var b = document.getElementById("igual");
+var boto8 = document.getElementById("iguale");
 
-// 
-//   function mostrarResultado() {
-//     console.log(ingresado.value);
-//   }
-//
-// b.addEventListener("click", mostrarResultado);
+
+
+
+boto8.addEventListener("click", console.log(ingresadoSinProceso.value));

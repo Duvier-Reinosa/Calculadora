@@ -8,28 +8,52 @@
   </head>
   <body>
     <header>
-      <h1>Calculator</h1>
+      <h1><a href="index.html">Calculator</a></h1>
       <nav>
           <ol>
-            <li><a href="#" id="help">Help</a></li>
+            <li><a href="help.html" id="help">Help</a></li>
           </ol>
       </nav>
 
     </header>
-    <form class="calculadora" >
-      <br>
-      <input type="number" id="input" ><br>
+    <center>
+    <div class="calculadora" >
+      <div id="contenedor">
+      <p id="pantalla"></p>
       <div id="botones">
+        <div>
+          <button type="button" id="n1">1</button>
+          <button type="button" id="n2">2</button>
+          <button type="button" id="n3">3</button>
+        </div>
+        <div>
+          <button type="button" id="n4">4</button>
+          <button type="button" id="n5">5</button>
+          <button type="button" id="n6">6</button>
+        </div>
+        <div>
+          <button type="button" id="n7">7</button>
+          <button type="button" id="n8">8</button>
+          <button type="button" id="n9">9</button>
+        </div>
+        <div>
+          <button type="button" id="n0">0</button>
+        </div>
+      <div id="operaciones">
       <button type="button" id="suma">+</button>
       <button type="button" id="resta">-</button>
       <button type="button" id="multiplicacion">x</button>
       <button type="button" id="division">/</button>
-      <button type="button" id="igual" >=</button>
-      </div>
-      <p id="resultado"></p>
-    </form>
+    </div>
+    <div>
+      <button type="button" id="iguale" >=</button>
+    </div>
+    </div>
+  </div>
+    </div>
+  </center>
+  <footer>by Duvier Reinosa</footer>
     <script type="text/javascript" src="calculadora.js">
-
     </script>
   </body>
 </html>
