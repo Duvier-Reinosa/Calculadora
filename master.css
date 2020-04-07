@@ -71,8 +71,8 @@ button{
   margin-top: 20px;
 }
 #i{
-  width: 120px;
-  margin-left: 51px;
+  width: 160px;
+  margin-left: 50px;
   background-color: #DECBFD;
 }
 #c{
@@ -94,4 +94,16 @@ footer{
   bottom: 0;
   margin-left: 130vh;
   padding-bottom: 20px;
+}
+#tituloDeAyuda{
+  margin-left: 75px;
+  color: white;
+}
+#parrafoAyuda{
+  text-align: center;
+  color: white;
+}
+#punto{
+  width: 120px;
+  margin-left: 51px;
 }

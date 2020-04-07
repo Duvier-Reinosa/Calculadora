@@ -109,8 +109,8 @@ function borrar() {
 botonc.addEventListener("click", borrar);
 
 function resultado() {
-  function evaluaArimetica(fn) {
-     return new Function('return ' + fn)();
+  function evaluaArimetica(fun) {
+     return new Function('return ' + fun)();
     }
     var resultado = ( evaluaArimetica(pantalla.value) );
       while (pantalla.firstChild) {
