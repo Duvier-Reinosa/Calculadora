@@ -51,7 +51,7 @@ button{
   margin-top: 10px;
 }
 #operaciones{
-  margin-left: 170px;
+  padding-left: 65%;
   margin-top: -160px;
   display: grid;
 }
